@@ -1,0 +1,25 @@
+{
+    "intro": {
+        "slides": [
+            {
+                "do_fade": true,
+                "id": "intro_1",
+                "show_time": 4000,
+                "text": {
+                    "text": "Lähdinpä reissulle Australiaan."
+                }
+            }
+        ],
+        "transition_length": 3000
+    },
+    "outro": {
+        "slides": [
+            {
+                "do_fade": true,
+                "id": "outro0",
+                "show_time": 4000,
+                "imageSrc": "images/end_picture.png"
+            }
+        ]
+    }
+}
