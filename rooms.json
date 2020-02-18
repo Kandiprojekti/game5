@@ -18,6 +18,17 @@
                         "visible": true
                     },
                     "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "ikkuna_kiinni",
+                        "src": "images/assetit/ikkuna.png",
+                        "visible": true,
+                        "x": 200,
+                        "y": 200
+                    },
+                    "className": "Image"
                 }
             ],
             "className": "Layer"

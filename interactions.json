@@ -1,1 +1,10 @@
-{}
+{
+    "ikkuna_kiinni": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ikkuna_kiinni", "string": "examine"}
+            }
+        ]
+    }
+}
