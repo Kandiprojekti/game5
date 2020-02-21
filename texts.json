@@ -5,6 +5,9 @@
     "default.pickable": {
         "default": "Tätä ei voi käyttää tähän. Voisin kyllä poimia tämän mukaani."
     },
+    "intro": {
+        "examine": "Hohhoh olipas hyvät yöunet. Taidanpas lähteä haukkaamaan raikasta ilmaa."
+    },
     "ikkuna_kiinni": {
         "examine": "Tämä ikkuna on kiinni."
     }

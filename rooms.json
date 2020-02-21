@@ -13,7 +13,7 @@
                         "category": "room_background",
                         "height": 543,
                         "id": "aloitus",
-                        "src": "images/taustat/aloitus.jpg",
+                        "src": "images/taustat/startti.jpg",
                         "width": 981,
                         "visible": true
                     },
@@ -25,8 +25,8 @@
                         "id": "ikkuna_kiinni",
                         "src": "images/assetit/ikkuna.png",
                         "visible": true,
-                        "x": 200,
-                        "y": 200
+                        "x": 150,
+                        "y": 70
                     },
                     "className": "Image"
                 }
