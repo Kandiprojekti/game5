@@ -6,5 +6,55 @@
                 "textkey": {"object": "ikkuna_kiinni", "string": "examine"}
             }
         ]
+    },
+    "ekaovi": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "tokahuone"
+            },
+            {
+                "command": "monologue",
+                "textkey": {"object": "tokahuone", "string": "start"},
+                "timeout": 2000
+            }
+        ]
+    },
+    "kaasu_kiinni": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kaasu_kiinni", "string": "open"}
+            },
+            {
+                "command": "remove_object",
+                "object": "kaasu_kiinni"
+            },
+            {
+                "command": "add_object",
+                "object": "kaasu_auki"
+            }
+        ]
+    },
+    "kaasu_auki": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kaasu_auki", "string": "examine"}
+            }
+        ]
+    },
+    "kaasuovi_makuuhuoneeseen": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "aloitushuone"
+            },
+            {
+                "command": "monologue",
+                "textkey": {"object": "intro", "string": "gassed"},
+                "timeout": 2000
+            }
+        ]
     }
 }

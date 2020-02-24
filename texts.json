@@ -6,10 +6,20 @@
         "default": "Tätä ei voi käyttää tähän. Voisin kyllä poimia tämän mukaani."
     },
     "intro": {
-        "examine": "Hohhoh olipas hyvät yöunet. Taidanpas lähteä haukkaamaan raikasta ilmaa."
+        "examine": "Hohhoh olipas hyvät yöunet. Taidanpas lähteä haukkaamaan raikasta ilmaa.",
+        "gassed": "Kaasu on levinnyt makuuhuoneeseenkin!\nÄkkiä ikkuna auki!"
     },
     "ikkuna_kiinni": {
-        "examine": "Tämä ikkuna on kiinni."
+        "examine": "Onpas ulkona hyvä ilma!"
+    },
+    "tokahuone": {
+        "start": "Hmmm mitähän tuolla tapahtuu..."
+    },
+    "kaasu_kiinni": {
+        "open": "Herranjestas, koko huone täytyy ihmeellisellä kaasulla!\nPitää äkkiä tuulettaa huone!"
+    },
+    "kaasu_auki": {
+        "examine": "Ei tuonne kaasun sekaan voi mennä!\nTäytyy tuulettaa talo.\nMakuuhuoneessa taitaa olla lähin ikkuna."
     }
 }
 
