@@ -12,14 +12,24 @@
     "ikkuna_kiinni": {
         "examine": "Onpas ulkona hyvä ilma!"
     },
+    "kaasuikkuna_kiinni": {
+        "open": "Huhhuh nyt täällä voi hengittää kunnolla!\nNyt pitäisi päästä kaasuovesta ulos."
+    },
     "tokahuone": {
-        "start": "Hmmm mitähän tuolla tapahtuu..."
+        "start": "Hmmm mitähän tuolla tapahtuu...",
+        "ungassed": "Noniin kaikki kaasu on kadonnut!"
     },
     "kaasu_kiinni": {
         "open": "Herranjestas, koko huone täytyy ihmeellisellä kaasulla!\nPitää äkkiä tuulettaa huone!"
     },
     "kaasu_auki": {
         "examine": "Ei tuonne kaasun sekaan voi mennä!\nTäytyy tuulettaa talo.\nMakuuhuoneessa taitaa olla lähin ikkuna."
+    },
+    "ikkuna_auki": {
+        "examine": "Ikkunan avaaminen helpotti kyllä oloa suuresti."
+    },
+    "kolmas_huone": {
+        "start": "Tähän jäätiin!"
     }
 }
 

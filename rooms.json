@@ -33,9 +33,53 @@
                 {
                     "attrs": {
                         "category": "furniture",
+                        "id": "kaasuikkuna_kiinni",
+                        "src": "images/assetit/ikkuna.png",
+                        "visible": false,
+                        "x": 150,
+                        "y": 70
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "ikkuna_auki",
+                        "src": "images/assetit/ikkuna_auki.png",
+                        "visible": false,
+                        "x": 150,
+                        "y": 70
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
                         "id": "ekaovi",
                         "src": "images/assetit/Ovi_3.png",
                         "visible": true,
+                        "x": 10,
+                        "y": 270
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "uusiekaovi",
+                        "src": "images/assetit/Ovi_3.png",
+                        "visible": false,
+                        "x": 10,
+                        "y": 270
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "kaasuton_eka_ovi",
+                        "src": "images/assetit/Ovi_3.png",
+                        "visible": false,
                         "x": 10,
                         "y": 270
                     },
@@ -88,9 +132,20 @@
                 {
                     "attrs": {
                         "category": "furniture",
+                        "id": "kaasuton_ovi",
+                        "src": "images/assetit/Ovi_4.png",
+                        "visible": false,
+                        "x": 100,
+                        "y": 100
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
                         "id": "kaasuovi_makuuhuoneeseen",
                         "src": "images/assetit/Ovi_4.png",
-                        "visible": true,
+                        "visible": false,
                         "x": 800,
                         "y": 250
                     },
@@ -101,7 +156,7 @@
                         "category": "furniture",
                         "id": "normiovi_makuuhuoneeseen",
                         "src": "images/assetit/Ovi_4.png",
-                        "visible": false,
+                        "visible": true,
                         "x": 800,
                         "y": 250
                     },

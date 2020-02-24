@@ -33,6 +33,14 @@
             {
                 "command": "add_object",
                 "object": "kaasu_auki"
+            },
+            {
+                "command": "remove_object",
+                "object": "normiovi_makuuhuoneeseen"
+            },
+            {
+                "command": "add_object",
+                "object": "kaasuovi_makuuhuoneeseen"
             }
         ]
     },
@@ -54,6 +62,123 @@
                 "command": "monologue",
                 "textkey": {"object": "intro", "string": "gassed"},
                 "timeout": 2000
+            },
+            {
+                "command": "remove_object",
+                "object": "kaasuovi_makuuhuoneeseen"
+            },
+            {
+                "command": "add_object",
+                "object": "normiovi_makuuhuoneeseen"
+            },
+            {
+                "command": "remove_object",
+                "object": "ekaovi"
+            },
+            {
+                "command": "add_object",
+                "object": "uusiekaovi"
+            },
+            {
+                "command": "remove_object",
+                "object": "ikkuna_kiinni"
+            },
+            {
+                "command": "add_object",
+                "object": "kaasuikkuna_kiinni"
+            }
+        ]
+    },
+    "normiovi_makuuhuoneeseen": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "aloitushuone"
+            },
+            {
+                "command": "remove_object",
+                "object": "ekaovi"
+            },
+            {
+                "command": "add_object",
+                "object": "uusiekaovi"
+            }
+        ]
+    },
+    "uusiekaovi": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "tokahuone"
+            }
+        ]
+    },
+    "kaasuikkuna_kiinni": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kaasuikkuna_kiinni", "string": "open"}
+            },
+            {
+                "command": "remove_object",
+                "object": "kaasuikkuna_kiinni"
+            },
+            {
+                "command": "add_object",
+                "object": "ikkuna_auki"
+            },
+            {
+                "command": "remove_object",
+                "object": "uusiekaovi"
+            },
+            {
+                "command": "add_object",
+                "object": "kaasuton_eka_ovi"
+            },
+            {
+                "command": "remove_object",
+                "object": "kaasu_auki"
+            },
+            {
+                "command": "add_object",
+                "object": "kaasuton_ovi"
+            }
+        ]
+    },
+    "ikkuna_auki": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ikkuna_auki", "string": "examine"}
+            }
+        ]
+    },
+    "kaasuton_eka_ovi": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "tokahuone"
+            },
+            {
+                "command": "monologue",
+                "textkey": {"object": "tokahuone", "string": "ungassed"},
+                "timeout": 2000
+            },
+            {
+                "command": "remove_object",
+                "object": "kaasuton_eka_ovi"
+            },
+            {
+                "command": "add_object",
+                "object": "uusiekaovi"
+            }
+        ]
+    },
+    "kaasuton_ovi": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kolmas_huone", "string": "start"}
             }
         ]
     }
