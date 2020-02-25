@@ -219,6 +219,215 @@
                 }
             ],
             "className": "Layer"
+        },
+        {
+            "attrs": {
+                "category": "room",
+                "id": "aula",
+                "start": false,
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "category": "room_background",
+                        "height": 543,
+                        "id": "kolmas",
+                        "src": "images/taustat/toka.jpg",
+                        "width": 981,
+                        "visible": true
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "varasto_ovi",
+                        "src": "images/assetit/Ovi_4.png",
+                        "visible": true,
+                        "x": 100,
+                        "y": 100
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "varasto_ovi2",
+                        "src": "images/assetit/Ovi_4.png",
+                        "visible": false,
+                        "x": 100,
+                        "y": 100
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "hama_ovi",
+                        "src": "images/assetit/Ovi_4.png",
+                        "visible": true,
+                        "x": 300,
+                        "y": 100
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "hama_ovi2",
+                        "src": "images/assetit/Ovi_4.png",
+                        "visible": false,
+                        "x": 300,
+                        "y": 100
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "juoksupyora",
+                        "src": "images/assetit/Esine.png",
+                        "visible": true,
+                        "x": 500,
+                        "y": 100
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "tokahuone_ovi2",
+                        "src": "images/assetit/Ovi_4.png",
+                        "visible": true,
+                        "x": 800,
+                        "y": 250
+                    },
+                    "className": "Image"
+                }
+            ],
+            "className": "Layer"
+        },
+        {
+            "attrs": {
+                "category": "room",
+                "id": "varasto",
+                "start": false,
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "category": "room_background",
+                        "height": 543,
+                        "id": "neljas",
+                        "src": "images/taustat/varasto.jpg",
+                        "width": 981,
+                        "visible": true
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "kinkku",
+                        "src": "images/assetit/Liha_2.png",
+                        "visible": true,
+                        "x": 100,
+                        "y": 350
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "aula_ovi",
+                        "src": "images/assetit/Ovi_4.png",
+                        "visible": true,
+                        "x": 800,
+                        "y": 250
+                    },
+                    "className": "Image"
+                }
+            ],
+            "className": "Layer"
+        },
+        {
+            "attrs": {
+                "category": "room",
+                "id": "hama",
+                "start": false,
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "category": "room_background",
+                        "height": 543,
+                        "id": "viides",
+                        "src": "images/taustat/toka.jpg",
+                        "width": 981,
+                        "visible": true
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "hamahakki",
+                        "src": "images/assetit/hamahakki.png",
+                        "visible": true,
+                        "x": 400,
+                        "y": 200
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "hama_ovi_aulaan",
+                        "src": "images/assetit/Ovi_4.png",
+                        "visible": true,
+                        "x": 800,
+                        "y": 250
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "ulko_ovi_lukossa",
+                        "src": "images/assetit/Ovi_5.png",
+                        "visible": true,
+                        "x": 50,
+                        "y": 250
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "ulko_ovi_auki",
+                        "src": "images/assetit/Ovi_6.png",
+                        "visible": false,
+                        "x": 50,
+                        "y": 250
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "avain",
+                        "src": "images/assetit/Avain.png",
+                        "visible": false,
+                        "x": 400,
+                        "y": 350
+                    },
+                    "className": "Image"
+                }
+            ],
+            "className": "Layer"
         }
     ]
 }

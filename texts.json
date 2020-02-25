@@ -1,6 +1,6 @@
 {
     "default": {
-        "examine": "Tällä ei voi kyllä tehdä mitään."
+        "examine": "Mitähän minä oikein touhuan?"
     },
     "default.pickable": {
         "default": "Tätä ei voi käyttää tähän. Voisin kyllä poimia tämän mukaani."
@@ -29,10 +29,35 @@
         "examine": "Ikkunan avaaminen helpotti kyllä oloa suuresti."
     },
     "kolmas_huone": {
-        "start": "Tähän jäätiin!"
+        "start": "Hmmmm mistähän ovesta pääsin ulos?\nJännä homma, että omaan taloon voi eksyä..."
     },
     "kaasu": {
         "examine": "Hyi kamala tätä kaasua! Eihän täällä voi edes hengittää!"
+    },
+    "juoksupyora": {
+        "examine": "Höööö hamsterikin lähti kaasua karkuun.\n(On muuten meleko iso hamsteri.)"
+    },
+    "varasto": {
+        "start": "Jaahas varastohan tämä oli."
+    },
+    "kinkku": {
+        "pickup": "Evästä matkaan!"
+    },
+    "kinkku_item": {
+        "examine": "Tämä maistuu varmasti kelle vaan.",
+        "juoksupyora": "Hehehehehe! Lihamylly...",
+        "ikkuna_auki": "Ei hyvää lihaa ikkunasta kannata heittää.",
+        "ulko_ovi_lukossa": "Ei kyllä kinkulla lukkoa auki saada...",
+        "hamahakki": "Jes! Hämähäkille maistui kinkku! Se oli näköjään ryöstänyt ulko-oven avaimen."
+    },
+    "hama": {
+        "start": "Apua! Järjettömän kokoinen hämähäkki!!!"
+    },
+    "hamahakki": {
+        "examine": "Mistä tuo tänne pääsi?!\nMitenhän saisin sen karkoitettua?"
+    },
+    "ulko_ovi_lukossa": {
+        "examine": "Eih ovi on lukossa! Mihin ihmeeseen avain on hävinnyt?"
     }
 }
 

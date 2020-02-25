@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "attrs": {
+            "category": "item",
+            "id": "kinkku_item",
+            "src": "images/assetit/Liha_2.png",
+            "visible": false
+        },
+        "className": "Image"
+    }
+]

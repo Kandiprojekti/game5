@@ -217,8 +217,13 @@
     "kaasuton_ovi": {
         "click": [
             {
+                "command": "do_transition",
+                "destination": "aula"
+            },
+            {
                 "command": "monologue",
-                "textkey": {"object": "kolmas_huone", "string": "start"}
+                "textkey": {"object": "kolmas_huone", "string": "start"},
+                "timeout": 2000
             }
         ]
     },
@@ -259,6 +264,177 @@
             {
                 "command": "monologue",
                 "textkey": {"object": "kaasu", "string": "examine"}
+            }
+        ]
+    },
+    "juoksupyora": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "juoksupyora", "string": "examine"}
+            }
+        ]
+    },
+    "varasto_ovi": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "varasto"
+            },
+            {
+                "command": "monologue",
+                "textkey": {"object": "varasto", "string": "start"},
+                "timeout": 2000
+            },
+            {
+                "command": "remove_object",
+                "object": "varasto_ovi"
+            },
+            {
+                "command": "add_object",
+                "object": "varasto_ovi2"
+            }
+        ]
+    },
+    "varasto_ovi2": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "varasto"
+            }
+        ]
+    },
+    "aula_ovi": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "aula"
+            }
+        ]
+    },
+    "kinkku": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kinkku", "string": "pickup"}
+            },
+            {
+                "command": "remove_object",
+                "object": "kinkku"
+            },
+            {
+                "command": "inventory_add",
+                "item": "kinkku_item"
+            }
+        ]
+    },
+    "kinkku_item": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kinkku_item", "string": "examine"}
+            }
+        ],
+        "juoksupyora": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kinkku_item", "string": "juoksupyora"}
+            }
+        ],
+        "ikkuna_auki": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kinkku_item", "string": "ikkuna_auki"}
+            }
+        ],
+        "ulko_ovi_lukossa": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kinkku_item", "string": "ulko_ovi_lukossa"}
+            }
+        ],
+        "hamahakki": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kinkku_item", "string": "hamahakki"}
+            },
+            {
+                "command": "remove_object",
+                "object": "hamahakki"
+            },
+            {
+                "command": "inventory_remove",
+                "item": "kinkku_item"
+            },
+            {
+                "command": "add_object",
+                "object": "avain"
+            }
+        ]
+    },
+    "tokahuone_ovi2": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "tokahuone"
+            }
+        ]
+    },
+    "hama_ovi": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "hama"
+            },
+            {
+                "command": "monologue",
+                "textkey": {"object": "hama", "string": "start"},
+                "timeout": 2000
+            },
+            {
+                "command": "remove_object",
+                "object": "hama_ovi"
+            },
+            {
+                "command": "add_object",
+                "object": "hama_ovi2"
+            }
+        ]
+    },
+    "hama_ovi2": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "hama"
+            }
+        ]
+    },
+    "hama_ovi_aulaan": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "aula"
+            }
+        ]
+    },
+    "hamahakki": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "hamahakki", "string": "examine"}
+            },
+            {
+                "command": "play_character_animation",
+                "animation": "panic",
+                "length": 6000
+            }
+        ]
+    },
+    "ulko_ovi_lukossa": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ulko_ovi_lukossa", "string": "examine"}
             }
         ]
     }
