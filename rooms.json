@@ -84,6 +84,28 @@
                         "y": 270
                     },
                     "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "kaasu1",
+                        "src": "images/assetit/Esine_2.png",
+                        "visible": false,
+                        "x": 400,
+                        "y": 100
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "kaasu2",
+                        "src": "images/assetit/Esine_3.png",
+                        "visible": false,
+                        "x": 600,
+                        "y": 200
+                    },
+                    "className": "Image"
                 }
             ],
             "className": "Layer"
@@ -159,6 +181,39 @@
                         "visible": true,
                         "x": 800,
                         "y": 250
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "kaasu3",
+                        "src": "images/assetit/Esine_2.png",
+                        "visible": false,
+                        "x": 300,
+                        "y": 100
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "kaasu4",
+                        "src": "images/assetit/Esine_3.png",
+                        "visible": false,
+                        "x": 500,
+                        "y": 200
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "kaasu5",
+                        "src": "images/assetit/Esine_3.png",
+                        "visible": false,
+                        "x": 700,
+                        "y": 100
                     },
                     "className": "Image"
                 }

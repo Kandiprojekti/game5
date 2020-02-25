@@ -30,6 +30,9 @@
     },
     "kolmas_huone": {
         "start": "Tähän jäätiin!"
+    },
+    "kaasu": {
+        "examine": "Hyi kamala tätä kaasua! Eihän täällä voi edes hengittää!"
     }
 }
 

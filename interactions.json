@@ -41,6 +41,26 @@
             {
                 "command": "add_object",
                 "object": "kaasuovi_makuuhuoneeseen"
+            },
+            {
+                "command": "add_object",
+                "object": "kaasu1"
+            },
+            {
+                "command": "add_object",
+                "object": "kaasu2"
+            },
+            {
+                "command": "add_object",
+                "object": "kaasu3"
+            },
+            {
+                "command": "add_object",
+                "object": "kaasu4"
+            },
+            {
+                "command": "add_object",
+                "object": "kaasu5"
             }
         ]
     },
@@ -142,6 +162,26 @@
             {
                 "command": "add_object",
                 "object": "kaasuton_ovi"
+            },
+            {
+                "command": "remove_object",
+                "object": "kaasu1"
+            },
+            {
+                "command": "remove_object",
+                "object": "kaasu2"
+            },
+            {
+                "command": "remove_object",
+                "object": "kaasu3"
+            },
+            {
+                "command": "remove_object",
+                "object": "kaasu4"
+            },
+            {
+                "command": "remove_object",
+                "object": "kaasu5"
             }
         ]
     },
@@ -179,6 +219,46 @@
             {
                 "command": "monologue",
                 "textkey": {"object": "kolmas_huone", "string": "start"}
+            }
+        ]
+    },
+    "kaasu1": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kaasu", "string": "examine"}
+            }
+        ]
+    },
+    "kaasu2": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kaasu", "string": "examine"}
+            }
+        ]
+    },
+    "kaasu3": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kaasu", "string": "examine"}
+            }
+        ]
+    },
+    "kaasu4": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kaasu", "string": "examine"}
+            }
+        ]
+    },
+    "kaasu5": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kaasu", "string": "examine"}
             }
         ]
     }
