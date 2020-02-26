@@ -7,5 +7,14 @@
             "visible": false
         },
         "className": "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
+            "id": "avain_item",
+            "src": "images/assetit/Avain.png",
+            "visible": false
+        },
+        "className": "Image"
     }
 ]

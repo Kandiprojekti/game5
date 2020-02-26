@@ -4,16 +4,24 @@
             {
                 "do_fade": true,
                 "id": "intro_1",
-                "show_time": 1000,
+                "show_time": 2000,
                 "text": {
                     "text": "Tapahtui eräänä aamuna."
                 }
             }
         ],
-        "transition_length": 1000
+        "transition_length": 4000
     },
     "outro": {
         "slides": [
+            {
+                "do_fade": true,
+                "id": "outro_teksti",
+                "show_time": 4000,
+                "text": {
+                    "text": "Vapaus koitti jälleen."
+                }
+            },
             {
                 "do_fade": true,
                 "id": "outro0",

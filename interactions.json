@@ -437,5 +437,62 @@
                 "textkey": {"object": "ulko_ovi_lukossa", "string": "examine"}
             }
         ]
+    },
+    "avain": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "avain", "string": "pickup"}
+            },
+            {
+                "command": "remove_object",
+                "object": "avain"
+            },
+            {
+                "command": "inventory_add",
+                "item": "avain_item"
+            }
+        ]
+    },
+    "avain_item": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "avain_item", "string": "examine"}
+            }
+        ],
+        "hama_ovi_aulaan": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "avain_item", "string": "hama_ovi_aulaan"}
+            }
+        ],
+        "ulko_ovi_lukossa": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "avain_item", "string": "ulko_ovi_lukossa"}
+            },
+            {
+                "command": "inventory_remove",
+                "item": "avain_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "ulko_ovi_lukossa"
+            },
+            {
+                "command": "add_object",
+                "object": "ulko_ovi_auki"
+            }
+        ]
+    },
+    "ulko_ovi_auki": {
+        "click": [
+            {
+                "command": "play_sequence",
+                "sequence": "outro",
+                "monologue": false
+            }
+        ]
     }
 }

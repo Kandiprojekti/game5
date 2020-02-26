@@ -5,6 +5,10 @@
     "default.pickable": {
         "default": "Tätä ei voi käyttää tähän. Voisin kyllä poimia tämän mukaani."
     },
+    "start_credits": {
+        "name": "start_credits",
+        "examine": "Tämän pelin tekivät Oulun steinerkoulun 8-luokkalaiset."
+    },
     "intro": {
         "examine": "Hohhoh olipas hyvät yöunet. Taidanpas lähteä haukkaamaan raikasta ilmaa.",
         "gassed": "Kaasu on levinnyt makuuhuoneeseenkin!\nÄkkiä ikkuna auki!"
@@ -58,6 +62,14 @@
     },
     "ulko_ovi_lukossa": {
         "examine": "Eih ovi on lukossa! Mihin ihmeeseen avain on hävinnyt?"
+    },
+    "avain": {
+        "pickup": "Tämän pitäisi olla oikea avain."
+    },
+    "avain_item": {
+        "examine": "Tällä avaimella pitäisi saada ulko-ovi auki.",
+        "hama_ovi_aulaan": "Eihän tämä ole ulko-ovi.",
+        "ulko_ovi_lukossa": "Jes se aukesi! Nyt pääsen raikkaaseen ulkoilmaan.\nAvain meni kyllä rikki. Täytyy käydä lukkosepällä teettämässä uusi."
     }
 }
 
